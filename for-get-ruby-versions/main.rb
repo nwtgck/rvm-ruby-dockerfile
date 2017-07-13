@@ -43,3 +43,9 @@ versions_str = ruby_verions
   .join(" ")
 # Print for bash array
 puts("vers=(#{versions_str})")
+puts()
+
+# This is for Docker hub description
+ruby_verions.sort.reverse.each{|v|
+  puts("docker pull nwtgck/rvm-ruby:#{v.to_s}")
+}
