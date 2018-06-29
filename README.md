@@ -1,9 +1,13 @@
-# RVM Ruby Dockerfile
+# Ruby on RVM Docker image
 
-### How to build and push
+Docker image for Pre-installed Ruby on [RVM](https://rvm.io/)
 
-```sh
-$  ./build-many.bash
+## Available Versions
+Ruby 1.6.7 ~ 2.5.1  
+Check on [rvm-ruby](https://hub.docker.com/r/nwtgck/rvm-ruby/tags/).
+
+## Usage
+
+```bash
+docker run -it nwtgck/rvm-ruby:2.4.4
 ```
-
-Thats' all!
