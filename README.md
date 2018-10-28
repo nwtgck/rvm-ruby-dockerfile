@@ -14,13 +14,17 @@ Check on [rvm-ruby - Docker Hub](https://hub.docker.com/r/nwtgck/rvm-ruby/tags/)
 
 
 ```
+docker pull nwtgck/rvm-ruby:2.5.3
+docker pull nwtgck/rvm-ruby:2.5.2
 docker pull nwtgck/rvm-ruby:2.5.1
 docker pull nwtgck/rvm-ruby:2.5.0
+docker pull nwtgck/rvm-ruby:2.4.5
 docker pull nwtgck/rvm-ruby:2.4.4
 docker pull nwtgck/rvm-ruby:2.4.3
 docker pull nwtgck/rvm-ruby:2.4.2
 docker pull nwtgck/rvm-ruby:2.4.1
 docker pull nwtgck/rvm-ruby:2.4.0
+docker pull nwtgck/rvm-ruby:2.3.8
 docker pull nwtgck/rvm-ruby:2.3.7
 docker pull nwtgck/rvm-ruby:2.3.6
 docker pull nwtgck/rvm-ruby:2.3.5
