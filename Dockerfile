@@ -2,7 +2,7 @@
 
 FROM nwtgck/rvm
 
-MAINTAINER Ryo Ota <nwtgck@gmail.com>
+LABEL maintainer="Ryo Ota <nwtgck@gmail.com>"
 
 RUN apt update && \
     apt install -y git wget libfontconfig curl
@@ -17,5 +17,7 @@ RUN rvm install ruby-$RUBY_VERSION --default
 
 # ==== End Install rvm and ruby ====
 
+# Clean
+RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Done!
