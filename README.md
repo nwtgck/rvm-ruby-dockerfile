@@ -9,11 +9,16 @@ docker run -it nwtgck/rvm-ruby:2.4.4
 ```
 
 ## Available Versions
-Ruby 2.5.3 ~ 1.6.7  
+Ruby 2.6.2 ~ 1.6.7
 Check on [rvm-ruby - Docker Hub](https://hub.docker.com/r/nwtgck/rvm-ruby/tags/).
 
 
 ```
+docker pull nwtgck/rvm-ruby:2.6.2
+docker pull nwtgck/rvm-ruby:2.6.1
+docker pull nwtgck/rvm-ruby:2.6.0
+docker pull nwtgck/rvm-ruby:2.5.5
+docker pull nwtgck/rvm-ruby:2.5.4
 docker pull nwtgck/rvm-ruby:2.5.3
 docker pull nwtgck/rvm-ruby:2.5.2
 docker pull nwtgck/rvm-ruby:2.5.1
